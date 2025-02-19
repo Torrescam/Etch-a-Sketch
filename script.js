@@ -4,7 +4,7 @@ popupButton.classList.add("popup-button");
 popupButton.textContent = "Size";
 buttonContainer.appendChild(popupButton);
 
-const containerSize = 900;
+const containerSize = 700;
 const mainContainer = document.querySelector(".main-container");
 const gridContainer = document.querySelector(".container");
 
