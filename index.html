@@ -7,11 +7,49 @@
     <title>Etch-a-Sketch</title>
   </head>
   <body>
+    <section class="instructions">
+    <h1>How to Use</h1>
+      <ol>
+        <li class="font-weight"> First, choose the size: </li>
+          <ul class="list-style">
+            <li>Select the grid size from the dropdown menu.</li>
+          </ul>
+        <li class="font-weight">Select the color of your ink: </li>
+          <ul class="none-listStyle">
+            <li>
+              <img src="./img/icons8-color-48.png" alt="colors">
+              Use random colors while drawing 
+            </li>
+            <li>
+              <img src="./img/icons8-pencil-48.png" alt="pencil">
+              Use a black pencil for a classic Etch-a-Sketch
+            </li>
+          </ul>
+      </ol>
+    </section>
     <div class="main-container">
+    <div class="title-container">
       <h1 class="title">Etch-a-Sketch</h1>
-      <div class="container"></div>
+      <button id="random-color">
+        <img src="./img/icons8-color-48.png" alt="pallete-color">
+      </button>
+      <button id="pencil-color">
+        <img src="./img/icons8-pencil-48.png" alt="pencil-color">
+      </button>
     </div>
+      <div class="container"></div>
+      <div class="button-container">
+        <button class="button-erase">Erase</button>
+      </div>
 
+      <select name="size" id="size">
+        <option value="">Choose one</option>
+        <option value="16x16">16 x 16</option>
+        <option value="64x64">64 x 64</option>
+        <option value="100x100">100 x 100</option>
+      </select>
+      </div>
+    </div>
     <script src="./script.js"></script>
   </body>
 </html>
